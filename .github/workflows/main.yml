@@ -64,7 +64,7 @@ jobs:
 
       run: |
 
-        echo "Iniciando a aplicaÃ§Ã£o..."
+        echo "Iniciando a aplicao..."
 
         node app.js
 
