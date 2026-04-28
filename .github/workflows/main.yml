@@ -60,15 +60,15 @@ jobs:
 
         node-version: '18'
 
-    - name: 4. Executando a aplicaÃ§Ã£o
+    - name: 4. Executando a aplicacao
 
       run: |
 
-        echo "Iniciando a aplicao..."
+        echo "Iniciando a aplicacao..."
 
         node app.js
 
-        echo "AplicaÃ§Ã£o executada com sucesso!"        
+        echo "Aplicacao executada com sucesso!"        
 
     - name: 5. Mensagem de sucesso
 
@@ -76,9 +76,9 @@ jobs:
 
         echo "ParabÃ©ns! Seu primeiro pipeline de CI estÃ¡ funcionando!"
 
-        echo "EstatÃ­sticas da execuÃ§Ã£o:"
+        echo "EstatÃ­sticas da execucao:"
 
-        echo "   - RepositÃ³rio: ${{ github.repository }}"
+        echo "   - Repositorio: ${{ github.repository }}"
 
         echo "   - Branch: ${{ github.ref_name }}"
 
