@@ -1,7 +1,5 @@
 name: Pipeline de CI/CD - Meu Primeiro RobÃ´
 
-# Quando este workflow deve ser executado?
-
 on:
 
   push:
@@ -85,4 +83,3 @@ jobs:
         echo "   - Commit: ${{ github.sha }}"
 
         echo "   - Autor: ${{ github.actor }}"
-----------------
